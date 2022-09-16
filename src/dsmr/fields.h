@@ -246,6 +246,10 @@ namespace dsmr
 
     /* Meter Reading electricity delivered to client (Special for Lux) in 0,001 kWh */
     DEFINE_FIELD(energy_delivered_lux, FixedValue, ObisId(1, 0, 1, 8, 0), FixedField, units::kWh, units::Wh);
+
+    /* Meter Reading electricity delivered to client in 0,001 kWh */
+    DEFINE_FIELD(energy_delivered, FixedValue, ObisId(1, 0, 1, 8, 0), FixedField, units::kWh, units::Wh);
+    
     /* Meter Reading electricity delivered to client (Tariff 1) in 0,001 kWh */
     DEFINE_FIELD(energy_delivered_tariff1, FixedValue, ObisId(1, 0, 1, 8, 1), FixedField, units::kWh, units::Wh);
     /* Meter Reading electricity delivered to client (Tariff 2) in 0,001 kWh */

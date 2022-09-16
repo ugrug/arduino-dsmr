@@ -69,6 +69,11 @@ constexpr char timestamp::name[];
 constexpr ObisId equipment_id::id;
 constexpr char equipment_id::name[];
 
+/* ugrug */
+
+constexpr ObisId energy_delivered_month_prev::id;
+constexpr char energy_delivered_month_prev::name[];
+
 constexpr ObisId energy_delivered::id;
 constexpr char energy_delivered::name[];
 

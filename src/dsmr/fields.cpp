@@ -69,6 +69,9 @@ constexpr char timestamp::name[];
 constexpr ObisId equipment_id::id;
 constexpr char equipment_id::name[];
 
+constexpr ObisId energy_delivered::id;
+constexpr char energy_delivered::name[];
+
 /* extra for Lux */
 constexpr ObisId energy_delivered_lux::id;
 constexpr char energy_delivered_lux::name[];
